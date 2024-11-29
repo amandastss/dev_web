@@ -1,0 +1,166 @@
+/*FORMATAÇÃO GERAL*/
+html  {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: calc(12px + 0.390625vw); /*fonte responsiva: muda de acordo com o dispositivo*/
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+
+/*FORMATAÇÃO TOPO/HEADER*/
+header{
+    background-color: #3B8686;
+    padding: 20px 10vw 20px 10vw; /*porcentagem ou vw para diminuir*/
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 10px 16px 10px 16px ; 
+}
+header nav ul li:last-child{
+    margin-right: 0 ;           /*last child, ultimo "filho" da li */
+}
+header nav .atual{ /*dentro da nav existe uma tag com atual*/
+    background-color: rgba(255,255,255,0.2) ; /*da a transparência, a inicial de rgba  é a cor em ingles*/
+    padding: 3px 8px 3px 8px;
+    border-radius: 15px;
+}
+header nav .atual:hover{
+    background-color: rgba(255,255,255,0.5) ; /*da a transparência, a inicial de rgba  é a cor em ingles*/
+}
+section.banner{
+ background:
+ linear-gradient(rgba(121,189,154,0.2), rgba(121,189,154,0.2)), /*Adiciona fundo transparente verde*/
+ url(../src/banner.png) no-repeat center center ; /* ../ é p sair da pasta*/
+ background-size: 100% auto , 100% , auto;
+ padding: 20vw 10vw 10vw 10vw ;
+ 
+}
+section.banner h2 {
+    color: white;
+    font-size: 3rem;
+    width: 35%;
+    background-color: rgba(59,134,134,50%);
+}
+.icons ul{
+display: flex;
+justify-content: center;
+padding: 2vw 2vw 2vw 2vw;
+
+}
+.icons h3{
+ font-weight: bold;
+ align-items: center;
+ margin: 0 0 1vw 5vw;
+}
+.icons span{
+    color: #3B8686;
+    margin: 0 0 1vw 7vw;
+    font-size: 4vw;
+    align-items: center;
+}
+.icons ul li{
+    margin: 0 1vw 2vw 1vw;
+    align-items: center;
+}
+.icons p{
+    color: #747474;
+    text-align: center;
+}
+.icons button{
+    background-color: #3B8686;
+    color: white;
+    border: none;
+    padding: 9px 9px 9px 9px;
+    margin: 1vw 0 0 6vw;
+}
+section.clock{
+    background:
+    linear-gradient(rgba(121,189,154,0.5), rgba(121,189,154,0.2)), /*Adiciona fundo transparente verde*/
+    url(../src/numeros.png) no-repeat center center ; /* ../ é p sair da pasta*/
+    background-size: 100% auto , 100% , auto;
+    padding: 4vw 4vw 4vw 4vw ;
+}
+
+
+.clock ul {
+    display: flex;
+    color: white;
+    font-size: 2vw;
+    justify-content: center;
+}
+.clock ul li p{
+    margin: 1vw 2vw 0 1vw;
+    padding: 0 1vw 0 0;
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.clock span{
+    align-items: center;
+    margin-left: 4.5vw;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0 0 0 ;
+}
+.number h1{
+    font-size: xx-large;
+    color: #0B486B;
+}
+.atv{
+ padding: 0 2vw 0 0;
+
+}
+.atv p{
+    margin: 2vw 0 0 0;
+    color: #747474;
+}
+.number button{
+    background-color: #0B486B;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    margin: 1vw 0 0 0;
+    border: none;
+}
+footer{
+    background-color: #3B8686;
+    color: white;
+    display: flex;
+    margin: 7vw 0 0 0;
+}
+.media li{
+   display: flex;
+  padding: 3vw 1vw 1vw 5vw;
+  font-size: xx-large;
+}
+.media span{
+    padding: 0 1vw 0 0;
+}
+.media p{
+    margin: 0 0 0 5vw;
+   
+}
+.contato{
+    margin: 3vw 2vw 2vw 20vw;
+}
+.contato p{
+    margin: 0 0 15px 0;
+}
+.contato li{
+    display: flex;
+  
+}
+.home{
+    margin: 2vw 2vw 2vw 30vw;
+}
+.home li{
+    padding: 0 0 10px 0;
+}
