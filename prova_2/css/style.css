@@ -1,0 +1,154 @@
+html{
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #343F52;
+    text-decoration: none;
+}
+header nav ul {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    list-style: none;
+    color: #343F52;
+    
+}
+header span{
+    border:1rem;
+    background-color: #5EB9F0;
+    color: white;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+}
+header nav{
+    margin: 0 5vw 5vw 35vw;
+}
+header{
+    display: flex;
+  
+}
+header a{
+    color: #343F52;
+    text-decoration: none;
+}
+header nav ul li{
+    margin: 2vw ;
+    color: #343F52;
+  
+}
+header img{
+    display: flex;
+    margin: 2vw 2vw 2vw 2vw;
+}
+section h1 span{
+    color: #5EB9F0;
+}
+.banner h1{
+    font-size: 3rem;
+    margin: 2vw 2vw 2vw 2vw;
+    font-weight: bold;
+    padding: 5vw;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+.banner img{
+   height:auto;
+   width: 100%;
+  
+}
+.banner p{
+    margin: 1vw;
+}
+.banner button{
+    color: white;
+    background-color: #5EB9F0;
+    border: 1rem;
+    border-radius: 25vw;
+    font-size: 1rem;
+    margin: 2vw 2vw 2vw 2vw;
+}
+.service{
+    background-color: #F0F8FE;
+ 
+}
+.service a{
+    color: #5EB9F0;
+    text-decoration: none;
+    
+}
+.service div{
+    display: flex;
+    justify-content: center;
+    margin: 5vw 5vw 5vw 5vw;
+}
+.service h1{
+    font-size: 1.5rem;
+    color: #343F52;
+    font-weight: bold;
+    text-align: center;
+    padding: 5vw 0 0 0;
+   
+}
+.image{
+   display: flex;
+}
+#grafico{
+    background-color: white;
+   
+}
+#grafico h2{
+   font-size:larger;
+   font-weight: bold;
+   
+}
+#grafico img{
+    padding: 2vw;
+    justify-content: center;
+}
+
+#magna{
+    background-color: white;
+    
+}
+#magna h2{
+   font-weight: bold;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #343F52;
+   padding: 2vw;
+   
+}
+footer h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+   padding: 2vw 2vw 2vw 2vw;
+}
+footer button{
+    background-color: #5EB9F0;
+    color: white;
+    font-weight: bold;
+    border-radius: 2vw #f0f8fe;
+    
+  
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    text-decoration: #F0F8FE;
+    
+}
+footer nav ul li a span{
+    color: white;
+    padding: 10px;
+}
