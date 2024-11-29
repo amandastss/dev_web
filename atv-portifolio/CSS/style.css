@@ -1,0 +1,184 @@
+/*================
+CSS reset
+==================*/
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+/*================
+FORMATAÇÃO GERAL
+==================*/
+
+html {
+    font-size: calc(5px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+html body a{
+    text-decoration: none;
+    color: #21243d;
+}
+main {
+    margin: 0vw 15vw 0vw 15vw;  /*espaçamento do titulo*/
+}
+
+/*================
+Formatação do topo
+==================*/
+header {
+    margin: 0 5vw 3vw 5vw; 
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right ;
+}
+
+header nav ul li{
+    margin: 1vw 5px  5px;
+}
+
+header nav ul li.atual a{
+    color:#ff6464;
+}
+
+/*================
+Formatação do works
+==================*/
+
+main.works h1 {
+    font-weight:normal;  /*remove o negrito da fonte*/
+    margin: 0 0 2vw 0;   /*espaçamento do titulo*/
+    color: #21243d;     /*cor da fonte*/ 
+}
+main.works section {
+    border-bottom: 1px solid #e0e0e0;      /*borda da section(apenas  na parte de bx)*/
+    padding: 2vw 0vw 2vw 0vw;
+}
+main.works section:last-child {
+    border: none;
+}
+main.works section p {
+    margin: 2vw 0 2vw 0;
+}
+main.works section p span {
+    color: white;               /*cor da fonte*/
+    background-color: #ff6464;  /*cor do fundo*/
+    border-radius: 35px ; 
+    padding: 2px 7px 2px 7px ;  
+    font-weight: bold;  /*negrito na fonte*/
+}
+
+
+/*================
+Formatação do conteúdo home page
+==================*/
+section.banner {
+    display: flex ;
+    margin: 7vw 0 3vw 0;
+}
+section.banner h1 {
+  font-size: 2rem;
+}
+section.banner p{
+    margin: 3vw 3vw 3vw 0vw;
+    font-size: larger;
+}
+section.banner button {
+    background: #ff6464;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+} 
+section.post {
+    background:#edf7fa;
+    padding: 3vw 5px 3vw 5px;
+}
+section.post h2 {
+    font-weight:normal;
+    margin: 0 0 2vw 0;
+}
+section.post ul {
+    display:flex;
+}
+section.post ul li {
+    background: white ;
+    padding: 15px 10px 15px 10px;
+    margin: 0 2vw 0 0;
+}
+section.post ul li:last-child {
+    margin: 0 ;
+}
+section.post ul li p {
+    margin: 1.5vw 0 1.5vw 0;
+}
+section.ft-works h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 30px  0 20px 0;
+}
+section.ft-works >div {
+    display: flex;  /*coloca uma ao lado da outra*/
+}
+section.ft-works div  span {
+    color: white;               /*cor da fonte*/
+    background-color: #163372;  /*cor do fundo*/
+    border-radius: 35px ; 
+    padding: 3px 7px 2px 9px ;  
+    font-weight: bold;  /*negrito na fonte*/ 
+
+}
+section.ft-works div span {
+    color: white;               /*cor da fonte*/
+    background-color: #163372;  /*cor do fundo*/
+    border-radius: 35px ; 
+    padding: 3px 7px 2px 9px ;  
+    font-weight: bold;  /*negrito na fonte*/ 
+    margin: 0 15px 0 0 ;
+}
+section.ft-works div {
+    padding: 15px 10px 15px 10px;
+    margin: 0 2vw 0 0; 
+}
+section.ft-works h3 {
+    margin: 1vw 0 2vw 0;
+}
+section.ft-works div p {
+    margin: 1vw 0 2vw 0; /*separção 2020 do parágrafo*/
+}
+div p.cinza {
+    color: #635b5b;
+    
+}
+div p.cinza2 {
+    color: #635b5b;
+}
+
+   
+
+/*================
+Formatação do rodapé
+==================*/
+footer {
+    text-align: center; /*centraliza o texto do rodapé*/
+    padding: 0 0 5vw 0;
+    font-size: 1rem;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center; /*alinha os icones ao centro*/
+    font-size: 5rem;
+}
+footer nav ul li a {
+    padding: 7px;
+    margin: 0 2px 0 2px;
+    color: #21243d;
+    font-size: large;
+}
